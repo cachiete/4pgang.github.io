@@ -8,21 +8,45 @@
 }
 
 
-.container{
-    color: #323232;
-    text-align: center;
-    width: 100%;
-    min-height: 100vh;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-image: url(assets/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
+.message {
+    text-align: center;
+    margin-bottom: 20px; /* Añade un espacio entre los mensajes */
+}
+
+.reportes h3 {
+    font-size: 28px; /* Tamaño de letra más grande para Reportes */
+    margin-bottom: 12px;
+}
+
+.comunidad h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.herramientas h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 18px; /* Tamaño de letra más grande para los párrafos */
+}
 h1{
     font-weight: 700;
     font-size: 5rem;
